@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu-container{
+    background-color:#1F2937;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu {
+  width: 1000px;
+   width: 1000px;
+  display: flex;
+  justify-content: space-between;
+ 
+
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+      
+}
+.signup,
+.login{
+    margin: 20px;
+}
+h1 {
+    display: flex;
+    justify-content: flex-start;  
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: #f9faf8;
+    background-color: #1F2937;
+       
+        }
+.subtext{
+    font-size: 18px;
+    color:#e5e7eb;
+    background-color: #1F2937;
+}
+button{
+    background-color: rgb(68, 9, 233);
+    color: #e5e7eb;
+    border-radius: 15px;
+     padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+    
+}        
+.header-container {
+  background-color:#1F2937;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.image-placeholder {
+      flex: 1;
+      background-color: #6d747d; /* Γκρι χρώμα για placeholder */
+      height: 150px;
+      display: flex;
+      align-items: center;
+     justify-content: center;
+     border-radius: 5px;
+     flex-direction: column;
+        }
+.image-placeholder::after {
+  content: "this is a placeholder for an image";
+  color: #e5e7eb;
+  font-size: 1rem;
+}        
+
+
+.photo-grid-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
+/* Πιο έντονο στυλ */
+.action-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 80px 20px;
+}
+
+.action-section h2 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.action-section p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.action-button {
+  background-color: #ff6b6b;
+  font-size: 1.2rem;
+  padding: 15px 40px;
+}
+
+.action-button:hover {
+  background-color: #ff5252;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
